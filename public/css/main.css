@@ -1,0 +1,28 @@
+#ta{
+    /* float: ; */
+    display: flex;
+    justify-content: center;
+    background-color: #e7eaf6;;
+    border: 2px;
+    margin: 5px;
+    opacity: 2;
+}
+
+body{
+    /* background-image: url(zorr.png) */
+}
+
+body::after {
+    /* background: url(tzoroer.jpeg); */
+    /* background-image: linear-gradient(yellow,red); */
+    background: rgb(2,0,36);
+background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,109,168,0.7357317927170868) 71%);
+    content: "";
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;   
+  }
